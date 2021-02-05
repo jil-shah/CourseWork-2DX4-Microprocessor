@@ -71,8 +71,8 @@ PortM_Init
         BX LR               ; return from function 
 
 Start                                   ;Your program starts here
-    BL  PortF_Init                      ;The BL instruction is a function call, the next instruction address is stored in the link register. This calls your initialize function 
-    BL  PortM_Init                      ;The BL instruction is a function call, the next instruction address is stored in the link register. This calls your initialize function 
+    BL  PortF_Init                      ; Call the function for initializations
+    BL  PortM_Init                   
 
 
 		LDR R1, =GPIO_PORTF_DATA_R			; load the data register for R1
