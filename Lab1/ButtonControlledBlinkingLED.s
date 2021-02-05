@@ -10,12 +10,15 @@
 
 
 SYSCTL_RCGCGPIO_R             EQU     0x400FE608         ;General-Purpose Input/Output Run Mode Clock Gating Control Register
+
+GPIO_PORTF_DATA_R             EQU     0x4005D3FC         ;GPIO Port N DATA Register 
 GPIO_PORTF_DIR_R              EQU     0x4005D400         ;GPIO Port N DIR Register
 GPIO_PORTF_DEN_R              EQU     0x4005D51C         ;GPIO Port N DEN Register
-GPIO_PORTF_DATA_R             EQU     0x4005D3FC         ;GPIO Port N DATA Register 
+
+GPIO_PORTM_DATA_R             EQU     0x400633FC         ;GPIO Port N DATA Register 
 GPIO_PORTM_DIR_R              EQU     0x40063400         ;GPIO Port N DIR Register
 GPIO_PORTM_DEN_R              EQU     0x4006351C         ;GPIO Port N DEN Register
-GPIO_PORTM_DATA_R             EQU     0x400633FC         ;GPIO Port N DATA Register 
+
 
                               
         AREA    |.text|, CODE, READONLY, ALIGN=2
