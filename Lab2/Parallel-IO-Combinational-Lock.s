@@ -1,6 +1,5 @@
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Name: Jil Shah
-; Student Number: 400252316
 ; Lab Section: L09
 ; Description of Code: Switches D1 to D2 if button 3 (odd,odd,even)is pressed 
  
